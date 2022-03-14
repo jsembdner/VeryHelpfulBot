@@ -1,3 +1,2 @@
-# VeryHelpfulBot
+# VeryHelpfulBots
 A Playground for prototyping with the dev.botframework.com
-Test
