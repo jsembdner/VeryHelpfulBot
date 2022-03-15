@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jan/Development/public/VeryHelpfulBots/weather_bot/weather_bot/weather_bot.csproj": {}
+  },
+  "projects": {
+    "/Users/jan/Development/public/VeryHelpfulBots/weather_bot/weather_bot/weather_bot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jan/Development/public/VeryHelpfulBots/weather_bot/weather_bot/weather_bot.csproj",
+        "projectName": "weather_bot",
+        "projectPath": "/Users/jan/Development/public/VeryHelpfulBots/weather_bot/weather_bot/weather_bot.csproj",
+        "packagesPath": "/Users/jan/.nuget/packages/",
+        "outputPath": "/Users/jan/Development/public/VeryHelpfulBots/weather_bot/weather_bot/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jan/Development/public/VeryHelpfulBots/weather_bot/weather_bot/NuGet.Config",
+          "/Users/jan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://botbuilder.myget.org/F/botbuilder-v4-dotnet-daily/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Bot.Builder.AI.Luis": {
+              "target": "Package",
+              "version": "[4.15.2, )"
+            },
+            "Microsoft.Bot.Builder.AI.QnA": {
+              "target": "Package",
+              "version": "[4.15.2, )"
+            },
+            "Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime": {
+              "target": "Package",
+              "version": "[4.15.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
